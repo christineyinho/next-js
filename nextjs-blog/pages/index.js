@@ -25,7 +25,7 @@ const Home = ({
       <title>{siteTitle}</title>
     </Head>
     <section className={utilStyles.headingMd}>
-      <p>Hi &#128075; I'm Christine. Currently a Front End Engineer at <a href="https://chuffed.org">Chuffed.org</a>. A keen foodie, book worm, walker and fashion.
+      <p>Hi &#128075; I'm Christine. Currently a Front End Engineer at <a href="https://chuffed.org">Chuffed.org</a>. A keen foodie, book worm, walker and interest in fashion.
       </p>
     </section>
     <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
