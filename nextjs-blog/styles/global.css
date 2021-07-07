@@ -10,15 +10,7 @@ body {
 
 * {
   box-sizing: border-box;
-}
-
-a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+  color: #17301c;
 }
 
 img {
@@ -29,3 +21,19 @@ img {
 body {
     background-color: #BBDE9A;
 }
+
+a {
+    color: #17301c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #748377;
+    text-decoration: underline;
+}
+
+img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
