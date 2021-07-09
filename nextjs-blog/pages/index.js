@@ -1,8 +1,7 @@
 import Head from 'next/head'
-import Link from 'next/link'
 
+import { Blog } from "../components/blog";
 import Layout, { siteTitle } from '../components/layout'
-import Date from '../components/date'
 import { StickyNav } from '../components/stickyNav';
 import { WorkInformation } from '../components/workInformation';
 import { Contact } from "../components/contact";
@@ -46,20 +45,7 @@ const Home = ({
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <WorkInformation />
-        <h2 id="blog" className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list} >
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
+        <Blog allPostsData={allPostsData} />
         <Contact />
       </section>
     </div>

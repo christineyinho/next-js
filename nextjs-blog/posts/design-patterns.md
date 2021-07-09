@@ -3,8 +3,7 @@ title: 'Brown Bag: Design Patterns'
 date: '2021-05-07'
 ---
 
-Brown bag presentation:
-https://docs.google.com/presentation/d/18AbV1QA3GVFPOwn_gep9sZpDJlJxyGGQwPrjLPe2sq8/edit?usp=sharing
+[Brown bag presentation link](https://docs.google.com/presentation/d/18AbV1QA3GVFPOwn_gep9sZpDJlJxyGGQwPrjLPe2sq8/edit?usp=sharing)
 
 Design patterns in front end development:
 
