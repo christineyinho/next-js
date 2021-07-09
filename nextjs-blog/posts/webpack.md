@@ -3,8 +3,7 @@ title: 'Brown Bag: Webpack'
 date: '2021-05-07'
 ---
 
-Brown bag presentation:
-https://docs.google.com/presentation/d/1_7aPzrBvYmm95WsMScnpkMrGwcJaEp_0hizlbNVJZHY/edit?usp=sharing
+[Brown bag presentation link](https://docs.google.com/presentation/d/1_7aPzrBvYmm95WsMScnpkMrGwcJaEp_0hizlbNVJZHY/edit?usp=sharing)
 
 What is webpack:
 

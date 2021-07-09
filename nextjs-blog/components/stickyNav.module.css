@@ -1,0 +1,17 @@
+.container {
+    position: fixed;
+    bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        position: initial;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .listContainer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

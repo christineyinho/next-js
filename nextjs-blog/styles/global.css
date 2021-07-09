@@ -19,17 +19,17 @@ img {
 }
 
 body {
-    background-color: #BBDE9A;
+  background-color: #BBDE9A;
 }
 
 a {
-    color: #17301c;
-    text-decoration: none;
+  color: #17301c;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #748377;
-    text-decoration: underline;
+  color: #748377;
+  text-decoration: underline;
 }
 
 img {
@@ -37,3 +37,12 @@ img {
   filter: grayscale(100%);
 }
 
+ul {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+}
