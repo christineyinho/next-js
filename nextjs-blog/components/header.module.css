@@ -1,0 +1,30 @@
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: none;
+    }
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.text::after {
+    content: "";
+    display: flex;
+    width: 90px;
+    height: 1px;
+    margin: 0 auto 0 10px;
+    background-color: #17301c;
+}
+
+.borderCircle {
+    border-radius: 9999px;
+}
