@@ -54,6 +54,7 @@
 .section:first-child {
     position: fixed;
     left: 20px;
+    z-index: 50;
 }
 
 .section:nth-child(2) {
