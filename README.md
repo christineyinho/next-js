@@ -1,3 +1,3 @@
 # Portfolio
 
-# Built in Next JS
+### Built using NextJS
