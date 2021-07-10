@@ -31,16 +31,10 @@ const Home = ({
     </div>
     <div className={utilStyles.section} id="about">
       <section className={utilStyles.headingMd}>
-        <p>Hi &#128075; I'm Christine. Currently a Front End Engineer at <a href="https://chuffed.org">Chuffed.org</a>. A keen foodie, book worm, walker and interest in fashion.</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Duis libero purus, volutpat imperdiet aliquam ac, vulputate sit amet ex.
-          Integer ac eleifend nibh, id rhoncus nibh.
-          Cras nisl purus, lacinia a consequat ut, tristique pellentesque dui.
-          Sed at pharetra diam. Sed ultrices odio a nisi blandit, nec luctus felis pharetra.
-          Sed congue maximus velit et pretium.
-          Ed dui diam, volutpat nec ante non, tempus laoreet purus.
-          Donec lacinia volutpat sapien, sed pretium nibh volutpat vel.
+        <h1 className={utilStyles.homeHeader}>Hi &#128075; I'm <span className={utilStyles.name}>Christine</span>. I'm currently a Sydney based Front End Engineer.</h1>
+        <h3 className={utilStyles.subHeader}>Specialising in building UI designs and experiences. Currently at <a href="https://chuffed.org">Chuffed.org</a></h3>
+        <p className={utilStyles.headerText}>A sociology graduate turned front end engineer with 5+ years experience in the Front End space.
+          I found my time at University being spent more on figuring out how websites were made than reading Karl Marx, which has led me down this path!
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
