@@ -10,7 +10,11 @@ body {
 
 * {
   box-sizing: border-box;
-  color: #17301c;
+  color: #fff;
+}
+
+p {
+  font-size: 18px;
 }
 
 img {
@@ -19,16 +23,16 @@ img {
 }
 
 body {
-  background-color: #BBDE9A;
+  background-color: rgb(15, 16, 19);
 }
 
 a {
-  color: #17301c;
+  color: #fff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #748377;
+  color: #FD0E79;
   text-decoration: underline;
 }
 
@@ -45,4 +49,8 @@ ul {
 
 li {
   text-decoration: none;
+}
+
+h2 {
+  color: yellow;
 }

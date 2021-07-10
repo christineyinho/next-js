@@ -1,0 +1,50 @@
+.subHeader {
+    color: #fd0e79;
+    font-weight: bold;
+}
+
+.listItem {
+    margin: 0 1rem 1rem 0;
+    border: 1px dotted #fd0e79;
+    padding: 1rem;
+}
+
+.technologiesListContainer {
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.technologiesList,
+.listHeader {
+    position: relative;
+}
+
+.technologiesList::before,
+.listHeader::before {
+    width: 9rem;
+    height: 1rem;
+    content: "__";
+    bottom: 3px;
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    color: yellow;
+}
+
+@media screen and (min-width: 600px) {
+    .listContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .technologiesListContainer {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .listItem {
+        margin-right: 0;
+    }
+}

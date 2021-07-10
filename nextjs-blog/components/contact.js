@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from "./contact.module.css";
 
 export const Contact = () => (
-    <section className={styles.container}>
+    <section className={styles.container} id="contact">
         <ul className={styles.listContainer}>
             <li className={styles.list}>
                 <a href="https://github.com/christineyinho">
