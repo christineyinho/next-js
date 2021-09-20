@@ -1,6 +1,6 @@
 ---
 title: 'GraphQL and Apollo in Front End Development'
-date: '2021-07-24'
+date: '2021-08-24'
 ---
 
 [Brown bag presentation link](https://docs.google.com/presentation/d/1ygN_DitfapFR70n3eQjkq1zhGm2-7MoS2mvsO5s0aac/edit?usp=sharing)
