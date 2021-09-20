@@ -31,7 +31,7 @@ const Home = ({
     </div>
     <div className={utilStyles.section} id="about">
       <section className={utilStyles.headingMd}>
-        <h1 className={utilStyles.homeHeader}>Hi &#128075; I'm <span className={utilStyles.name}>Christine</span>. I'm currently a Sydney based Front End Engineer.</h1>
+        <h1 className={utilStyles.homeHeader}>Hi &#128075; I'm <span className={utilStyles.name}>Christine</span>. I'm currently a Sydney based Front End Engineer, moving to London, United Kingdom in 2022.</h1>
         <h3 className={utilStyles.subHeader}>Specialising in building UI designs and experiences. Currently at <a href="https://chuffed.org">Chuffed.org</a></h3>
         <p className={utilStyles.headerText}>A sociology graduate turned front end engineer with 5+ years experience in the Front End space.
           I found my time at University being spent more on figuring out how websites were made than reading Karl Marx, which has led me down this path!
