@@ -15,8 +15,15 @@ export const WorkInformation = () => (
         
         <ul className={styles.listContainer}>
             <li className={styles.listItem}>
-                <p><span className={styles.subHeader}>01.</span> <span className={styles.listHeader}>Chuffed.org</span></p>
+                <p><span className={styles.subHeader}>01.</span>
+                    <span className={styles.listHeader}>
+                        {" "}
+                        <a href="https://chuffed.org">Chuffed.org</a>
+                    </span>
+                </p>
                 <p>
+                    - Sole front end engineer for 2 years.
+                    <br />
                     - Maintance and implemenation of new features for main Chuffed.org site.
                     <br/>
                     - Including payment options (Stripe), integrations with third party platforms (e.g Action Network).
@@ -29,21 +36,30 @@ export const WorkInformation = () => (
                     <br/>
                     - Ensuring optimisations cross browers.
                     <br/>
-                    - Sole front end engineer for 2 years.
                 </p>
             </li>
             <li className={styles.listItem}>
-                <p><span className={styles.subHeader}>02.</span> <span className={styles.listHeader}>Coates Group</span></p>
+                <p><span className={styles.subHeader}>02.</span>
+                    <span className={styles.listHeader}>
+                        {" "}
+                        <a href="https://www.coatesgroup.com/projects/woolworths-australia/">Coates Group</a>
+                    </span>
+                </p>
                 <p>
+                    - Building demo production of client POS systems and animated visual content for in house CMS to win new clients.
+                    <br />
                     - Building of features and tools for client and internal projects
-                    <br/>
-                    - Building demo production of client POS systems and animated visual content for in house CMS.
                     <br />
                     - Working alongside and communicating with other front end engineers, designers, and product owners.
                 </p>
             </li>
             <li className={styles.listItem}>
-                <p><span className={styles.subHeader}>03.</span> <span className={styles.listHeader}>Red Balloon</span></p>
+                <p><span className={styles.subHeader}>03.</span>
+                    <span className={styles.listHeader}>
+                        {" "}
+                        <a href="https://www.redballoon.com.au/">Red Balloon</a>
+                    </span>
+                </p>
                 <p>
                     - Rebuild of legacy codebase to React/Redux.
                     <br />
@@ -53,7 +69,12 @@ export const WorkInformation = () => (
                 </p>
             </li>
             <li className={styles.listItem}>
-                <p><span className={styles.subHeader}>04.</span> <span className={styles.listHeader}>World Nomads Group</span></p>
+                <p><span className={styles.subHeader}>04.</span>
+                    {" "}
+                    <span className={styles.listHeader}>
+                        <a href="https://www.travelinsurancedirect.com.au/">World Nomads Group / Travel Insurance Direct</a>
+                    </span>
+                </p>
                 <p>
                     - Building of marketing landing pages using BEM/SMCSS methodologies.
                     Building of marketing email content for various brands within World Nomads Group, ensuring quality across different email clients.
@@ -62,7 +83,11 @@ export const WorkInformation = () => (
                 </p>
             </li>
             <li className={styles.listItem}>
-                <p><span className={styles.subHeader}>05.</span> <span className={styles.listHeader}>M&C Saatchi</span></p>
+                <p><span className={styles.subHeader}>05.</span>
+                    <span className={styles.listHeader}>
+                        <a href="https://www.mcsaatchi.com.au/">M&C Saatchi</a>
+                    </span>
+                </p>
                 <p>
                     - Building of marketing landing pages
                     <br />
