@@ -86,7 +86,7 @@
     height: 1rem;
     content: "";
     bottom: 0;
-    left: 0;
+    left: -10px;
     position: absolute;
     display: inline-block;
     background-image: url("../public/images/handDrawn.svg");
@@ -124,6 +124,7 @@
     .name::after {
         width: 14rem;
         height: 30px;
+        left: 0;
     }
 
     .headerText {
